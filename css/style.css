@@ -1,0 +1,59 @@
+@font-face {
+  font-family: evilLaughter;
+  src: url(../fonts/evilLaughter.otf);
+}
+
+body {
+	font-family: "Courier New";
+	font-size:20px;
+	color: red;
+	background-color: black;
+	margin: 100px;
+	margin-top: 50px;
+}
+
+h1 {
+	font-family: "evilLaughter", "Comic Sans MS";
+	animation-name: blinker;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+h2 {
+	font-family: "evilLaughter", "Comic Sans MS";
+	animation-name: blinker;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+h3 {
+	font-family: "evilLaughter", "Comic Sans MS";
+	animation-name: blinker;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+h4 {
+	font-family: "evilLaughter", "Comic Sans MS";
+	animation-name: blinker;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes blinker {
+	0%{color:red;}
+	50%{color:white;}
+	1000%{color:red;}
+}
+
+a {
+	color: white;
+}
+
+p {
+	color: red;
+}
